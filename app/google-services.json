@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "726618692922",
+    "project_id": "interior-designing-b4e16",
+    "storage_bucket": "interior-designing-b4e16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:726618692922:android:625392e56e4a5a3db90403",
+        "android_client_info": {
+          "package_name": "com.suresh.interiordesigning"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCX_fA_fyFeS6DXXWSayYVyAENexgHT2bM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
