@@ -66,7 +66,7 @@ fun TomNavigationModalMain(modifier: Modifier = Modifier) {
 
 
     Column(modifier = Modifier.fillMaxSize().padding(16.dp)
-        .background(Color.Green)
+        .background(Color.Transparent)
     ) {
 
         HeadingTextComponent(value = "Payment Details")
