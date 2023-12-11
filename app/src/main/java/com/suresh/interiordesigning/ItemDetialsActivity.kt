@@ -210,7 +210,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     .background(color = Color(0xff584bee))
             ) {
                 Text(
-                    text = "Add to cart",
+                    text = "Place Order",
                     color = Color.White,
                     textAlign = TextAlign.Center,
                     style = TextStyle(
