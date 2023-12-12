@@ -50,16 +50,17 @@
             android:exported="false"
             android:label="@string/title_activity_addto_cart"
             android:theme="@style/Theme.InteriorDesigning" />
+
         <activity
             android:name=".ItemDetialsActivity"
             android:exported="false"
             android:label="@string/title_activity_item_detials"
             android:theme="@style/Theme.InteriorDesigning" />
-        <activity
-            android:name=".HomeActivity"
-            android:exported="false"
-            android:label="@string/title_activity_home"
-            android:theme="@style/Theme.InteriorDesigning" />
+<!--        <activity-->
+<!--            android:name=".HomeActivity"-->
+<!--            android:exported="false"-->
+<!--            android:label="@string/title_activity_home"-->
+<!--            android:theme="@style/Theme.InteriorDesigning" />-->
         <activity
             android:name=".MainActivity"
             android:exported="true"
