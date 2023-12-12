@@ -154,7 +154,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                     }
             ) {
                 Text(
-                    text = "Add to cart",
+                    text = " Place Order",
                     color = Color.Black,
                     textAlign = TextAlign.Center,
                     style = TextStyle(

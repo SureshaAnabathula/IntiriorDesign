@@ -27,7 +27,6 @@ import com.suresh.interiordesigning.navigation.InteriorAppRouter
 import com.suresh.interiordesigning.navigation.Screen
 import com.suresh.interiordesigning.navigation.SystemBackButtonHandler
 
-
 @Composable
 fun LoginScreen(loginViewModel: LoginViewModel = viewModel()) {
 

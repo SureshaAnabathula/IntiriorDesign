@@ -47,14 +47,10 @@ class MyPayActivity : ComponentActivity() {
             }
         }
 }
-
-
 @Composable
 fun TomNavigationModalMain(modifier: Modifier = Modifier) {
     EditTextDemo()
 }
-
-
 @OptIn(ExperimentalMaterial3Api::class)
 @Preview()
 @Composable
@@ -78,7 +74,7 @@ fun TomNavigationModalMain(modifier: Modifier = Modifier) {
             onValueChange = { newText1 ->
                 textValue1 = newText1
             },
-            label = { Text("Enter ATM  Number") },
+            label = { Text("Enter Card Number") },
             keyboardOptions = KeyboardOptions.Default.copy(
                 keyboardType = KeyboardType.Number
             ),
@@ -94,7 +90,7 @@ fun TomNavigationModalMain(modifier: Modifier = Modifier) {
             onValueChange = { newText2 ->
                 textValue2 = newText2
             },
-            label = { Text("Enter Sort Code") },
+            label = { Text("Enter Expiry Date") },
             keyboardOptions = KeyboardOptions.Default.copy(
                 keyboardType = KeyboardType.NumberPassword
             ),
@@ -110,7 +106,7 @@ fun TomNavigationModalMain(modifier: Modifier = Modifier) {
             onValueChange = { newText3 ->
                 textValue3 = newText3
             },
-            label = { Text("Enter Bank Name ") },
+            label = { Text("Enter CVV ") },
             keyboardOptions = KeyboardOptions.Default.copy(
                 keyboardType = KeyboardType.Text
             ),

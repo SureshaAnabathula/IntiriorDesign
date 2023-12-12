@@ -43,9 +43,7 @@ import java.util.Locale
 import kotlin.math.min
 
 class ProfileActivity : ComponentActivity() {
-
     enum class CameraPermissionStatus { NoPermission, PermissionGranted, PermissionDenied }
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
@@ -177,7 +175,7 @@ class ProfileActivity : ComponentActivity() {
                                     modifier = Modifier
                                         .background(androidx.compose.material.MaterialTheme.colors.background)
                                         .align(Alignment.Center)
-                                        .padding(8.dp)
+                                        .padding(12.dp)
                                 ) {
                                     androidx.compose.material.Text(
                                         text = "Click to Close",

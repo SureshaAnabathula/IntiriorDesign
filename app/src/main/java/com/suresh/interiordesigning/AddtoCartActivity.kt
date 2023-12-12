@@ -83,7 +83,7 @@ fun Greeting2(name: String, modifier: Modifier = Modifier) {
                     .requiredSize(size = 24.dp))
             Text(
                 text = "£ 580.00",
-                color = Color(0xffaeb10a),
+                color = Color(0xFF7CE025),
                 textAlign = TextAlign.End,
                 style = TextStyle(
                     fontSize = 30.sp),
@@ -331,7 +331,7 @@ fun Greeting2(name: String, modifier: Modifier = Modifier) {
                     .requiredWidth(width = 85.dp)
                     .requiredHeight(height = 40.dp)
                     .clip(shape = RoundedCornerShape(11.dp))
-                    .background(color = Color(0xffaeb10a)))
+                    .background(color = Color(0xFF7CE025)))
             Text(
                 text = "Apply",
                 color = Color.White,
